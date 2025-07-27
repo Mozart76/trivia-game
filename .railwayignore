@@ -1,0 +1,15 @@
+# Frontend files (should not be deployed to Railway backend)
+src/
+public/
+build/
+node_modules/
+package-lock.json
+package.json
+vercel.json
+.env.local
+.env.development
+.env.test
+
+# Keep only backend files
+!server/
+!server/** 
