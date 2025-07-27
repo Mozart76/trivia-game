@@ -2,6 +2,7 @@
 src/
 public/
 build/
+dist/
 node_modules/
 package-lock.json
 package.json
@@ -9,6 +10,34 @@ vercel.json
 .env.local
 .env.development
 .env.test
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Railway
+.railway/
+
+# Documentation
+README.md
+DEPLOYMENT_GUIDE.md
+MONGODB_SETUP.md
+RAILWAY_DEPLOYMENT.md
+RAILWAY_FIX.md
+GITHUB_UPLOAD_GUIDE.md
+deploy.sh
 
 # Keep only backend files
 !server/
